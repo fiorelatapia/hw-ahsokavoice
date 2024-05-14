@@ -1,0 +1,57 @@
+.barra{
+    width: 200px;
+    margin:auto;
+    padding: 5px;
+}
+.contai{
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 4rem;
+
+}
+.porcen{
+
+    text-align: right;
+    padding: 5px;
+    color: #B0025B;
+    font-weight: 900px;
+    background-color: #B0025B;
+    animation:proceso 2s forwards;
+    border-radius: 4rem;
+}
+@keyframes proceso {
+    0%{
+        width: 0;
+    }
+     100% {
+        width: 100%;
+     }
+    
+}
+/* animacion de Letra Ahsoka_voice */
+
+@font-face {
+    font-family: FuenteDacing;
+    src: url(Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: FuenteBarlow;
+    src: url(Barlow_Condensed/BarlowCondensed-Bold.ttf);
+  }
+
+
+.as {
+  font-family: "FuenteDacing", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 500%;
+}
+
+.gestor {
+   
+        font-family: "FuenteBarlow", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+  

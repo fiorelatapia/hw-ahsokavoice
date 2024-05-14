@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.form-registro {
+    width: 400px;
+    background: #9a00a9;
+    padding: 20px;
+    margin: auto;
+    margin-top: auto;
+    border-radius: 4px;
+    color: aliceblue;
+    font-family: "FuenteBarlow";
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.tituloR{
+    font-family: "FuenteDacing";
+    font-size: 60px;
+    text-align: center;
+    padding: 40px;
+   
+}
+
+@font-face {
+    font-family: FuenteDacing;
+    src: url(Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: FuenteBarlow;
+    src: url(Barlow_Condensed/BarlowCondensed-Bold.ttf);
+  }
+
+.controls{
+    width: 100%;
+    padding: 00px 
+
+}
+
+.icontrols{
+    width: 100%;
+    padding: 5px;
+    background: #9a00a9;
+    font-family: "FuenteBarlow";
+    margin-bottom: 5px;
+    border: 1px solid #f794cb;
+    border-radius: 3px;
+    color: #f794cb
+
+   ;
+
+}
+.form-registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+
+}
+.form-registro a {
+    color: aliceblue;
+    margin-bottom: 40px;
+
+}
+
+.botona {
+    width: 50%;
+    height: 30px;
+    background: #f73193;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: "FuenteBarlow";
+    border-style: none;
+    cursor: pointer;
+    
+
+}
+
+.botonc {
+    width: 48%;
+    height: 30px;
+    background: #f73193;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: "FuenteBarlow";
+    border-style: none;
+    cursor: pointer;
+}
+
+.contenFoto {
+
+border: 1px solid #9a00a9;
+border-radius: 300px;
+height: 200px;
+width: 200px;
+padding: 200px 0px 0px 10px;
+background-image: url(usuario200.png); 
+margin-bottom: 40px;
+margin-left: 70px;
+}
+
+#archivo{ 
+    display: none;
+
+}
+
+.btn {
+    
+    font-family: "FuenteBarlow";
+    margin-left: 50px;
+    cursor: pointer;
+
+    
+}

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: FuenteDacing;
+    src: url(Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: FuenteBarlow;
+    src: url(Barlow_Condensed/BarlowCondensed-Bold.ttf);
+  }
+
+  .tituloL{
+    font-family: "FuenteDacing";
+    font-size: 60px;
+    text-align: center;
+    padding: 40px;
+   
+}
+
+.fotoLo img {
+
+    width: 100px;
+        margin-top: auto;
+        margin: auto;
+        padding: 20px;
+    
+    
+}
+
+
+
+  .forLogin {
+    width: 300px;
+  
+    background: #9a00a9;
+    padding: 20px;
+    margin: auto;
+    margin-top: auto;
+    border-radius: 4px;
+    color: aliceblue;
+    font-family: "FuenteBarlow";
+    box-shadow: 7px 13px 37px #000;
+
+    
+    
+  }
+  
+  .Lcontent{
+    width: 100%;
+
+  }
+.contenbuton{
+    display: grid;
+    justify-items: center;
+    
+
+}
+
+  .Icontent{
+    width: 100%;
+    padding: 5px;
+    background: #9a00a9;
+    font-family: "FuenteBarlow";
+    margin-bottom: 10px;
+    border: 1px solid #f794cb;
+    border-radius: 3px;
+    color: #f794cb;
+ 
+    
+
+    
+  }
+  .botonL {
+    width: 50%;
+    height: 30px;
+    background: #f73193;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: "FuenteBarlow";
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+   
+
+    
+    
+
+}
+
+.botonS {
+    width: 50%;
+    height: 30px;
+    background: #f73193;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: "FuenteBarlow";
+    border-style: none;
+    cursor: pointer;
+}

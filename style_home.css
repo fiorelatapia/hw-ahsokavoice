@@ -1,0 +1,161 @@
+@font-face {
+    font-family: FuenteDacing;
+    src: url(Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: FuenteBarlow;
+    src: url(Barlow_Condensed/BarlowCondensed-Bold.ttf);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    background: #9a00a0bd;
+    position: relative;
+    justify-content:space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+.icon {
+    font-family: "FuenteDacing";
+    font-size: 40px;
+    color: #fff;
+}
+
+.input_shear{
+
+    width: 300px;
+   height: 30px;
+   border-radius: 5px;
+   border: #fff;
+   font-family: "FuenteBarlow";
+   font-size: 20px;
+
+}
+.shear_box{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+
+}
+
+.lista_user {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-family: "FuenteBarlow";
+    color: #fff;
+    
+}
+
+
+.buscar_ico{
+ width: 40px;
+
+
+
+}
+.user-img {
+    width: 40px;
+
+}
+li {
+ font-size: 25px;
+ padding:2px
+ 
+
+    
+}
+.content_menu {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: #B0025bbd;
+    overflow-x: hidden;
+    padding-top: 20 px;
+}
+.content_menu a {
+    padding: 16px;
+    text-decoration: none;
+    font-family: "FuenteBarlow";
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    text-align: justify;
+    display: flex;
+   
+    
+
+}
+.content_menu a:hover{
+    color: #000;
+    font-weight: 700;
+    background-color: #f73193;
+    border-radius: 10px;
+}
+.content_menu i {
+    margin-right: 5px;
+}
+.content_menu img {
+    width: 20px;
+    padding: 2px;
+
+}
+.content_main{
+    width: 1000px;
+    height: 500px;
+    margin-left: 200px;
+    padding: 0px 10px;
+    background: #ececf2bd;
+    border: #f7a2d8;
+    border-radius: 30px;
+    display: grid;
+    justify-content: center;
+    font-family: "FuenteBarlow";
+    box-shadow: 7px 13px 37px #9a00a0;
+
+}
+.img-logro {
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+    
+}
+.megusta {
+    display: flex;
+    justify-content:space-between;
+}
+.megusta img {
+    width: 20px;
+    margin-left: 20px;
+
+
+}
+
+.megusta h4 {
+    margin-top: 0px;
+    margin-left: -420px;
+    font-family:'Times New Roman', Times, serif
+}
+.megusta p {
+    font-family:'Times New Roman', Times, serif;
+
+    
+}
+    
+.NomUser1{
+    color: #000;
+}
+.imgmas1 {
+    width: 30px;
+    
+}

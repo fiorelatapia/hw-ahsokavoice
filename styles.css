@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Barlow Condensed";
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/321/383/non_2x/abstract-pink-background-pink-modern-shapes-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+label{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: start;
+}
+label, select{
+    font-family: "Barlow Condensed";
+}
+
+.container {
+    width: 50%;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Dancing Script";
+    font-size: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    border-radius: 5px;
+    background-color: #9a00a0;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+textarea::placeholder {
+    color: black; /* Color del texto del placeholder */
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    background-color: #9a00a0;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #b0025b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #9a0055;
+}
+
+i{
+    width: 50px
+}
+
+.fa-image {
+    font-size: 50px; /* Tamaño deseado del icono */
+}
+
+.botonback{
+    margin-left: 10px;
+    margin-right: 100px;
+
+}

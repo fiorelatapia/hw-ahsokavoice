@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Barlow Condensed";
+    background-color: aliceblue;
+    color: black;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/321/383/non_2x/abstract-pink-background-pink-modern-shapes-background-vector.jpg);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    background-color: #f794cb;
+}
+
+.left, .center, .right {
+    display: flex;
+    align-items: center;
+    background-color: #f794cb;
+}
+
+.center {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+
+h1{
+    font-family: "Barlow Condensed";
+    margin-left: 10px;
+}
+
+
+button{
+    background-color: #9a00a9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px ;
+}
+
+
+input{
+    padding: 10px;
+    width: 450px;
+    height: 31px;
+    padding-right: 35 px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #9a00a9;
+    margin-top: 45px;
+    margin-left: 45px;
+    max-width: 600px;
+    max-height: 200px;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+}
+
+.right-content h1 {
+    font-size: 24px; 
+}
+
+h2{
+    font-family: "Barlow Condensed";
+    font-size: 40px;
+    margin-left: 5px;
+}
+ 
+.caja{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #9a00a9;
+    box-shadow: 2px;
+    margin-top: 45px;
+    margin-left: 20%;
+    max-width: 60%;
+    max-height: 200px;
+    
+}
+
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.opciones button {
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+    background: none;
+    color: black;
+    margin-left: 25%;
+    margin-top: 10px;
+    width: 20%;
+    text-align: justify;
+
+}
+
+.popuppassword input{
+    width: 60%;
+    height: 10%;
+    padding: 0;
+    margin-top: 8px;
+    
+}
+
+.popuppassword{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: justify;
+    padding: 0 30px 30px;
+    background-color: #f794cb;
+    border-radius: 6px;
+    margin-top: 4px;
+    width: 30%;
+    height: 28%;
+    box-shadow: 5px;
+    justify-content: center;
+    align-content: center;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+label{
+    font-weight: 600;
+}
+
+.popuppassword button{
+    margin-left: 20%;
+    border: 0;
+    padding: 10px 0;
+
+
+}
+
+.MostrarVentanaEmergente{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+
+}
+
+
+.arriba {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.arriba h1 {
+    margin-left: 5px; 
+    margin-top: 0px;
+}
+
+.popupdelete{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: justify;
+    padding: 0 30px 30px;
+    background-color: #f794cb;
+    border-radius: 6px;
+    margin-top: 4px;
+    width: 40%;
+    height: 40%;
+    box-shadow: 5px;
+    justify-content: center;
+    align-content: center;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.popupdelete h2{
+    text-decoration: underline;
+    font-size: 25px;
+
+}
+
+.popupdelete button{
+    margin-left: 20%;
+}
+.popupdelete p{
+    margin-top: 3px;
+    font-size: 18px;
+    line-height: 23px;
+}
+ .MostrarVentanaEmergenteDelete{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+ }

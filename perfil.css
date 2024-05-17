@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Barlow Condensed";
+    background-color: aliceblue;
+    color: black;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/321/383/non_2x/abstract-pink-background-pink-modern-shapes-background-vector.jpg);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    background-color: #f794cb;
+}
+
+img{
+    max-width: 200px;
+}
+.fotoperfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+h1{
+    text-align: center;
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 35px;
+    margin-left: 400px;
+    margin-top: 15px;
+}
+
+.opciones li{
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.opciones {
+    text-align: center;
+}
+
+
+.listadelogros{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #9a00a0;
+    width: 800px;
+}
+
+p{
+    max-width: 500px;
+    align-content: center;
+    font-size: px;
+}
+
+button{
+    background-color: #9a00a9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px ;
+}
+
+.left, .center, .right {
+    display: flex;
+    align-items: center;
+    background-color: #f794cb;
+}
+
+.center {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+input{
+    padding: 10px;
+    width: 450px;
+    height: 31px;
+    padding-right: 35 px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+}
+
+.listadelogros button{
+    background-color: transparent;
+    justify-self: flex-end;
+}

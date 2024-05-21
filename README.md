@@ -1,4 +1,3 @@
-# README.md
 # Pantalla de FAQ
 
 Esta pantalla es parte del proyecto Ahsoka Voice y se refiere a la sección de Preguntas Frecuentes (FAQ). En esta pantalla, las usuarias pueden encontrar respuestas a las preguntas más comunes sobre el uso de la plataforma.
